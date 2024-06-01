@@ -1,0 +1,37 @@
+Version 3 de python viene con (pruebase unitarias)
+
+assert -> validar una expresion booleana --> respuesta es true o false
+
+ejemplo: 
+
+assert 1 > 0, "Error en comprobar el mayor"
+assert 1==1, "Error al igualar"
+assert 1 in [2,3,4,5,1], "Error en busqueda dde elemento"
+[Aqui no hay ningun error]
+
+{errores ahora}
+assert 1 > 3, "Error en comprobar el mayor"
+{fin errores}
+
+(podriamos solicitar el plan de prueba de la QA y lo ejecutamos con assert y asi evitamos entregar el codigo con errores)
+
+y los ejemplos anterirores son lo mas basico para las pruebas, es lo mas basico que nosotros como desarrolladores podemos manejar.
+
+{errores 2}
+assert 7 in [2,3,4,5,1], "Error en busqueda dde elemento"
+{fin errores}
+
+
+(todas las funciones deben si o si retornar aun asi sea un RETURN 0 y en el Try Catch en el catch debe tener un RETURN)
+
+AHORA CLASE CALCULADORA
+
+importamos unittest en python
+
+
+Frases:
+
+Lo perfecto es enemigo de lo bueno
+
+hay que hacer lo que hay que hacer -> disciplina
+a todo lo que hacemos, agregenle disciplina y todo va funcionar

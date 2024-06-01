@@ -1,0 +1,26 @@
+Implemente un codigo en python usando programacion orientado a objeto o metodos que permitan realizar un pequeño programa que ingresando
+una lista de productos:
+-nombres
+-precios sin iva
+-cantidad
+
+Calcule: 
+-los iva de cada productos
+-los totales con iva
+-los totales sin iva
+-use el iva del 19%
+
+USANDO CLASE DE UNIT TEST  validar que mis metodos esttan bien implementados
+
+[Pantalla]
+(INGRESO DEL PRODUCTO)
+Cuantos productos va a ingresar: _5
+ingrese el producto: #1
+nombre del producto: _Manzanas
+precio sin iva del producto: _1000
+cantidad de productos: _10
+
+(DATOS QUE DEBE ENTREGAR)
+El iva de la manzana es: 190
+los totales con iva: 11900
+los totales sin iva son: 10000
